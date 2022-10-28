@@ -1,0 +1,122 @@
+.containerInput {
+  display: flex;
+  justify-content: center;
+  transform: translateY(calc(-70%));
+  gap: 8px;
+}
+
+.input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  border: 1px var(--gray-700);
+  background: var(--gray-500);
+  padding: 16px;
+  color: var(--gray-100);
+}
+
+.input:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue);
+}
+
+.button {
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  width: 5.625rem;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  font-size: 0.875rem;
+
+  transition: background-color 0.3s;
+}
+
+.button[type='submit']:not(:disabled):hover {
+  background-color: var(--blue);
+}
+
+.button[type='submit']:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 46rem;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 37px;
+  margin-bottom: 12px;
+}
+
+header .textCreatedTasks {
+  color: var(--blue);
+  margin-right: 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+header .numberCreatedTasks {
+  background: var(--gray-400);
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+header .textCompletedTasks {
+  color: var(--purple);
+  margin-right: 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+header .numberCompletedTasks {
+  background: var(--gray-400);
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.containerNoTasks {
+  margin-top: 24px;
+}
+
+.line {
+  height: 1px;
+  background-color: var(--gray-400);
+}
+
+.noTaskMessage img {
+  margin-bottom: 16px;
+}
+
+.noTaskMessage p {
+  line-height: 1.5rem;
+}
+
+.noTaskMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 64px;
+  font-size: 16px;
+  color: var(--gray-300);
+}
+
+.bold {
+  font-weight: 700;
+}

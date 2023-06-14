@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="Marvel Comics" src=".github/todo.png" width="600px">
+  <img alt="Marvel Comics" src=".github/todo.png" width="900px">
 </p>
 
 ## : Tecnologias

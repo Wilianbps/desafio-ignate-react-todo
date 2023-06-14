@@ -1,9 +1,9 @@
 <h1 align="center" >
-    <img alt="Marvel" title="#ToDo" src="/.github/todo.png" width="200px"/>
+    <img alt="ToDo" title="#ToDo" src="/.github/todo.png" width="200px"/>
 </h1>
 
 <h4 align="center">
-  WB Dragons
+  ToDo List
 </h4>
 
 

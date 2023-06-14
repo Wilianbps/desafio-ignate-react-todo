@@ -1,7 +1,3 @@
-<h1 align="center" >
-    <img alt="ToDo" title="#ToDo" src="/.github/todo.png" width="200px"/>
-</h1>
-
 <h4 align="center">
   ToDo List
 </h4>
@@ -16,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="Marvel Comics" src=".github/dragon3.jpg" width="600px">
+  <img alt="Marvel Comics" src=".github/todo.png" width="600px">
 </p>
 
 ## : Tecnologias
